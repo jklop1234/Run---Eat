@@ -1,4 +1,4 @@
-﻿生成启动时间为 2012/10/18 1:16:34。
+﻿生成启动时间为 2012/10/18 1:22:57。
      1>项目“E:\Project\Run---Eat\GameClub.vcxproj”在节点 2 上(Rebuild 个目标)。
      1>ClCompile:
          D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Src\DataTbl.cpp SRC\Ending.cpp Src\GameMain.cpp SRC\Help.cpp SRC\Title.cpp "Src\Master\Ci-Lib.CPP" Src\Master\Master.CPP
@@ -43,4 +43,4 @@
 
 生成成功。
 
-已用时间 00:00:24.43
+已用时间 00:00:25.04
