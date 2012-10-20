@@ -1,0 +1,22 @@
+﻿生成启动时间为 2012/10/20 12:31:28。
+     1>项目“F:\G表現_1.1\GameProject.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\2012\VC\bin\CL.exe /c /nologo /W3 /WX- /Ox /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /hotpatch /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Src\DataTbl.cpp SRC\Ending.cpp Src\GameMain.cpp SRC\Help.cpp SRC\Title.cpp "Src\Master\Ci-Lib.CPP" Src\Master\Master.CPP
+         DataTbl.cpp
+         Ending.cpp
+         GameMain.cpp
+         Help.cpp
+         Title.cpp
+         Ci-Lib.CPP
+     1>f:\g表現_1.1\include\dmerror.h(12): warning C4005: “FACILITY_DIRECTMUSIC”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\shared\winerror.h(157) : 参见“FACILITY_DIRECTMUSIC”的前一个定义
+         Master.CPP
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _VC80_UPGRADE=0x0710 /l"0x0409" /nologo /fo"Release\GameProject.res" SRC\Master\GameProject.rc 
+     1>RC : fatal error RC1110: could not open SRC\Master\GameProject.rc
+         
+     1>已完成生成项目“F:\G表現_1.1\GameProject.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.96
