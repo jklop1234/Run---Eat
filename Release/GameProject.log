@@ -1,4 +1,4 @@
-﻿生成启动时间为 2012/10/21 21:01:58。
+﻿生成启动时间为 2012/10/21 23:28:46。
      1>项目“C:\Users\Administrator\Documents\GitHub\Run---Eat\GameProject.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          F:\2012\VC\bin\CL.exe /c /nologo /W3 /WX- /Ox /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /hotpatch /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Src\DataTbl.cpp SRC\Ending.cpp Src\GameMain.cpp SRC\Help.cpp SRC\Title.cpp "Src\Master\Ci-Lib.CPP" Src\Master\Master.CPP
@@ -11,8 +11,6 @@
      1>c:\users\administrator\documents\github\run---eat\include\dmerror.h(12): warning C4005: “FACILITY_DIRECTMUSIC”: 宏重定义
                  C:\Program Files (x86)\Windows Kits\8.0\Include\shared\winerror.h(157) : 参见“FACILITY_DIRECTMUSIC”的前一个定义
          Master.CPP
-     1>Src\Master\Master.CPP(308): warning C4101: “TickCountOld”: 未引用的局部变量
-     1>Src\Master\Master.CPP(309): warning C4101: “TickCountNew”: 未引用的局部变量
        Link:
          F:\2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\GameProject.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"Release\GameProject.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\GameProject.lib" /MACHINE:X86 /SAFESEH Release\GameProject.res
          Release\DataTbl.obj
@@ -33,4 +31,4 @@
 
 生成成功。
 
-已用时间 00:00:03.11
+已用时间 00:00:03.18
