@@ -1,34 +1,20 @@
-﻿生成启动时间为 2012/10/20 9:58:40。
-     1>项目“E:\Project\Run---Eat\GameProject.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2012/10/21 21:01:58。
+     1>项目“C:\Users\Administrator\Documents\GitHub\Run---Eat\GameProject.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /nologo /W3 /WX- /Ox /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /hotpatch /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Src\DataTbl.cpp SRC\Ending.cpp Src\GameMain.cpp SRC\Help.cpp SRC\Title.cpp "Src\Master\Ci-Lib.CPP" Src\Master\Master.CPP
+         F:\2012\VC\bin\CL.exe /c /nologo /W3 /WX- /Ox /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /hotpatch /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Src\DataTbl.cpp SRC\Ending.cpp Src\GameMain.cpp SRC\Help.cpp SRC\Title.cpp "Src\Master\Ci-Lib.CPP" Src\Master\Master.CPP
          DataTbl.cpp
-     1>Src\DataTbl.cpp(66): warning C4566: 由通用字符名称“\uFF8E”表示的字符不能在当前代码页(936)中表示出来
-     1>Src\DataTbl.cpp(66): warning C4566: 由通用字符名称“\uFF9F”表示的字符不能在当前代码页(936)中表示出来
-     1>Src\DataTbl.cpp(66): warning C4566: 由通用字符名称“\uFF6F”表示的字符不能在当前代码页(936)中表示出来
-     1>Src\DataTbl.cpp(66): warning C4566: 由通用字符名称“\uFF8C”表示的字符不能在当前代码页(936)中表示出来
-     1>Src\DataTbl.cpp(69): warning C4566: 由通用字符名称“\uFF7A”表示的字符不能在当前代码页(936)中表示出来
-     1>Src\DataTbl.cpp(69): warning C4566: 由通用字符名称“\uFF9E”表示的字符不能在当前代码页(936)中表示出来
-     1>Src\DataTbl.cpp(69): warning C4566: 由通用字符名称“\uFF7C”表示的字符不能在当前代码页(936)中表示出来
-     1>Src\DataTbl.cpp(69): warning C4566: 由通用字符名称“\uFF6F”表示的字符不能在当前代码页(936)中表示出来
-     1>Src\DataTbl.cpp(69): warning C4566: 由通用字符名称“\uFF78”表示的字符不能在当前代码页(936)中表示出来
-     1>Src\DataTbl.cpp(75): warning C4566: 由通用字符名称“\uFF7A”表示的字符不能在当前代码页(936)中表示出来
-     1>Src\DataTbl.cpp(75): warning C4566: 由通用字符名称“\uFF9E”表示的字符不能在当前代码页(936)中表示出来
-     1>Src\DataTbl.cpp(75): warning C4566: 由通用字符名称“\uFF7C”表示的字符不能在当前代码页(936)中表示出来
-     1>Src\DataTbl.cpp(75): warning C4566: 由通用字符名称“\uFF6F”表示的字符不能在当前代码页(936)中表示出来
-     1>Src\DataTbl.cpp(75): warning C4566: 由通用字符名称“\uFF78”表示的字符不能在当前代码页(936)中表示出来
          Ending.cpp
          GameMain.cpp
          Help.cpp
          Title.cpp
          Ci-Lib.CPP
-     1>e:\project\run---eat\include\dmerror.h(12): warning C4005: “FACILITY_DIRECTMUSIC”: 宏重定义
+     1>c:\users\administrator\documents\github\run---eat\include\dmerror.h(12): warning C4005: “FACILITY_DIRECTMUSIC”: 宏重定义
                  C:\Program Files (x86)\Windows Kits\8.0\Include\shared\winerror.h(157) : 参见“FACILITY_DIRECTMUSIC”的前一个定义
          Master.CPP
-       ResourceCompile:
-         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _VC80_UPGRADE=0x0710 /l"0x0409" /nologo /fo"Release\GameProject.res" SRC\Master\GameProject.rc 
+     1>Src\Master\Master.CPP(308): warning C4101: “TickCountOld”: 未引用的局部变量
+     1>Src\Master\Master.CPP(309): warning C4101: “TickCountNew”: 未引用的局部变量
        Link:
-         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\GameProject.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"Release\GameProject.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\GameProject.lib" /MACHINE:X86 /SAFESEH Release\GameProject.res
+         F:\2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\GameProject.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"Release\GameProject.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\GameProject.lib" /MACHINE:X86 /SAFESEH Release\GameProject.res
          Release\DataTbl.obj
          Release\Ending.obj
          Release\GameMain.obj
@@ -38,13 +24,13 @@
          Release\Master.obj
          正在生成代码
          已完成代码的生成
-         GameProject.vcxproj -> E:\Project\Run---Eat\Release\GameProject.exe
+         GameProject.vcxproj -> C:\Users\Administrator\Documents\GitHub\Run---Eat\Release\GameProject.exe
        PostBuildEvent:
-         copy "E:\Project\Run---Eat\Release\GameProject.exe" "E:\Project\Run---Eat\GameProject.exe"
+         copy "C:\Users\Administrator\Documents\GitHub\Run---Eat\Release\GameProject.exe" "C:\Users\Administrator\Documents\GitHub\Run---Eat\GameProject.exe"
          :VCEnd
-         已复制         1 个文件。
-     1>已完成生成项目“E:\Project\Run---Eat\GameProject.vcxproj”(Build 个目标)的操作。
+                 1 個のファイルをコピーしました。
+     1>已完成生成项目“C:\Users\Administrator\Documents\GitHub\Run---Eat\GameProject.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:14.94
+已用时间 00:00:03.11
