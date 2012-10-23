@@ -1,11 +1,10 @@
-﻿生成启动时间为 2012/10/23 2:33:45。
+﻿生成启动时间为 2012/10/24 0:39:45。
      1>项目“C:\Users\Administrator\Documents\GitHub\Run---Eat\GameProject.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          F:\2012\VC\bin\CL.exe /c /nologo /W3 /WX- /Ox /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /hotpatch /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Src\DataTbl.cpp SRC\Ending.cpp Src\GameMain.cpp SRC\Help.cpp SRC\Title.cpp "Src\Master\Ci-Lib.CPP" Src\Master\Master.CPP
          DataTbl.cpp
          Ending.cpp
          GameMain.cpp
-     1>Src\GameMain.cpp(264): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
          Help.cpp
          Title.cpp
          Ci-Lib.CPP
@@ -22,7 +21,7 @@
          "Release\Ci-Lib.obj"
          Release\Master.obj
          正在生成代码
-     1>c:\users\administrator\documents\github\run---eat\src\gamemain.cpp(106): warning C4700: 使用了未初始化的局部变量“i”
+     1>c:\users\administrator\documents\github\run---eat\src\gamemain.cpp(113): warning C4700: 使用了未初始化的局部变量“i”
          已完成代码的生成
          GameProject.vcxproj -> C:\Users\Administrator\Documents\GitHub\Run---Eat\Release\GameProject.exe
        PostBuildEvent:
@@ -33,4 +32,4 @@
 
 生成成功。
 
-已用时间 00:00:03.11
+已用时间 00:00:02.90
