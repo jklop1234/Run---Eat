@@ -1,0 +1,1 @@
+extern	float AngleConvert(float fAngle);

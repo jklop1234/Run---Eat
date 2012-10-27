@@ -35,12 +35,18 @@
     <ClCompile Include="Src\GameMain.cpp">
       <Filter>Source File</Filter>
     </ClCompile>
+    <ClCompile Include="SRC\Lib\Misc.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Game.h">
       <Filter>Header file</Filter>
     </ClInclude>
     <ClInclude Include="Src\Master\Ci-Lib.H">
+      <Filter>Header file</Filter>
+    </ClInclude>
+    <ClInclude Include="SRC\Lib\Misc.h">
       <Filter>Header file</Filter>
     </ClInclude>
   </ItemGroup>

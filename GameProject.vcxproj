@@ -120,12 +120,14 @@
     <ClCompile Include="SRC\Ending.cpp" />
     <ClCompile Include="Src\GameMain.cpp" />
     <ClCompile Include="SRC\Help.cpp" />
+    <ClCompile Include="SRC\Lib\Misc.cpp" />
     <ClCompile Include="SRC\Title.cpp" />
     <ClCompile Include="Src\Master\Ci-Lib.CPP" />
     <ClCompile Include="Src\Master\Master.CPP" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\Game.h" />
+    <ClInclude Include="SRC\Lib\Misc.h" />
     <ClInclude Include="Src\Master\Ci-Lib.H" />
   </ItemGroup>
   <ItemGroup>
