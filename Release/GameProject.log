@@ -1,12 +1,12 @@
-﻿生成启动时间为 2012/10/29 0:32:28。
+﻿生成启动时间为 2012/11/13 23:56:19。
      1>项目“C:\Users\Administrator\Documents\GitHub\Run---Eat\GameProject.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          F:\2012\VC\bin\CL.exe /c /nologo /W3 /WX- /Ox /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /hotpatch /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Src\DataTbl.cpp SRC\Ending.cpp Src\GameMain.cpp SRC\Help.cpp SRC\Lib\Misc.cpp SRC\Title.cpp "Src\Master\Ci-Lib.CPP" Src\Master\Master.CPP
          DataTbl.cpp
          Ending.cpp
          GameMain.cpp
-     1>Src\GameMain.cpp(142): warning C4309: “=”: 截断常量值
-     1>Src\GameMain.cpp(310): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>Src\GameMain.cpp(163): warning C4309: “=”: 截断常量值
+     1>Src\GameMain.cpp(311): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
          Help.cpp
          Misc.cpp
          Title.cpp
@@ -35,4 +35,4 @@
 
 生成成功。
 
-已用时间 00:00:02.85
+已用时间 00:00:09.28
